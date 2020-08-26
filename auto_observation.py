@@ -11,7 +11,7 @@ basicConfig(filename='logger.log', level=logging.INFO)
 
 class auto_observation:
     def __init__(self, wait=2):
-        self.wait_time = 2  # 繊維待機
+        self.wait_time = 2  # 遷移待機
         options = Options()
         self.driver = webdriver.Chrome(options=options)
 
